@@ -27,15 +27,16 @@ li {
   padding: 0;
 }
 
-a {
-  color: inherit;
-}
 
 button,
 input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+}
+
+a {
+  color: inherit;
 }
 
 ul,
