@@ -36,15 +36,18 @@
   justify-content: center;
   text-align: center;
   min-height: clamp(327px, 50vw, 368px);
-  background-color: #FFFFFF;
+  background-color: #FFF;
   max-width: var(--block-width);
   font-family: var(--accent-font);
   border: 2px solid #000;
   margin-block-start: 100px;
-  margin-block-end: 96px;
+  margin-block-end: 100px;
   margin-inline: auto;
 }
 
+.logo__link {
+  text-decoration: none;
+}
 
 .logo {
   font-size: var(--header-logo-fz);
@@ -65,15 +68,15 @@
 .card {
   border: 2px solid #000;
   width: clamp(375px, 50%, 700px);
-  background-color: #FFFFFF;
-  margin-block-end: 50px;
+  background-color: #FFF;
+  margin-block-end: 52px;
 }
 
 .card__title {
   font-weight: var(--title-fw);
   font-size: 18px;
   margin-inline: 10px;
-  margin-block: 5px;
+  margin-block: 4px;
 }
 
 .img__container {
@@ -148,6 +151,7 @@
   font-weight: var(--paragraph-fw);
   font-family: var(--main-font);
   font-size: 18px;
+  line-height: 21px;
 }
 
 .buttons__container {
@@ -166,6 +170,7 @@
   display: flex;
   justify-content: center;
   cursor: pointer;
+  padding: 0px;
 }
 
 .card__icon-button:focus-visible {

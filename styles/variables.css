@@ -1,6 +1,6 @@
 :root {
  --accent-font: 'PressStart2P', monospace;
- --accent-color: #000000;
+ --accent-color: #000;
  --main-font: 'Inter', sans-serif;
  --main-fw:400;
  --paragraph-fw:410;
@@ -23,8 +23,8 @@
  --header-logo-fz: clamp(49px, 5vw, 65px);
  --header-title-fz: clamp(14px, 3.73vw, 23px);
  --block-width: clamp(375px, 50vw, 700px);
- --outline-color:#FFFFFF;
- --contour-color: #000000;
+ --outline-color:#FFF;
+ --contour-color: #000;
  --animation-fill-color: #FF0000;
- --fill-color:#000000;
+ --fill-color:#000;
 }
